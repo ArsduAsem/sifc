@@ -1,0 +1,12 @@
+.item-form, .item-details {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 60px;
+  justify-items: stretch;
+  line-height: 40px;
+}
+.items-holder {
+  padding: 10px 0;
+  min-height: 300px;
+}

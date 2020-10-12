@@ -1,0 +1,25 @@
+<mat-drawer-container class="app-container" [hasBackdrop]="true">
+  <mat-drawer #drawer mode="over">
+    <nav>
+      <ul class="nav-list">
+        <li><a mat-button routerLink="/labs/1" routerLinkActive="active">Lab 1</a></li>
+        <li><a mat-button routerLink="/labs/2" routerLinkActive="active">Lab 2</a></li>
+        <li><a mat-button routerLink="/labs/3" routerLinkActive="active">Lab 3</a></li>
+      </ul>
+    </nav>
+  </mat-drawer>
+  <div class="page-wrapper">
+    <mat-toolbar color="primary" class="toolbar">
+      <button
+        mat-icon-button
+        (click)="drawer.toggle()"
+      >
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>{{title}}</span>
+    </mat-toolbar>
+    <div class="route-view">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</mat-drawer-container>

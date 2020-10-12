@@ -1,0 +1,11 @@
+<div class="wrapper">
+  <div class="buttons">
+    <mat-button-toggle-group name="fontStyle" class="buttons-wrapper" [(ngModel)]=rapport>
+      <mat-button-toggle *ngFor="let rapport of rapports" [value]="rapport.key">{{rapport.title}}</mat-button-toggle>
+    </mat-button-toggle-group>
+  </div>
+  <div class="rapport">
+    <app-lab-first-ten-best-sellers *ngIf="rapport === rapports[0].key"></app-lab-first-ten-best-sellers>
+    <app-lab-first-ten-best-profit *ngIf="rapport === rapports[1].key"></app-lab-first-ten-best-profit>
+  </div>
+</div>

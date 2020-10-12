@@ -1,0 +1,21 @@
+{
+  "name": "sifc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "web": "cd front && ng",
+    "deploy:web": "npm run web deploy",
+    "serve:web": "npm run web serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArsduAsem/sifc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArsduAsem/sifc/issues"
+  },
+  "homepage": "https://github.com/ArsduAsem/sifc#readme"
+}

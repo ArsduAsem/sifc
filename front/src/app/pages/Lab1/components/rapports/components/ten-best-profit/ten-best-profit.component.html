@@ -1,0 +1,38 @@
+<mat-accordion>
+  <mat-expansion-panel *ngFor="let item of items$ | async">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{item.name}}
+      </mat-panel-title>
+      <mat-panel-description style="text-align: right">
+        Total Profit ${{item.totalProfit}}
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+   <div style="display: flex; justify-content: space-between; padding: 10px">
+     <div style="flex: 1">
+       <p>Buys</p>
+       <mat-list role="list" class="items-holder" >
+         <mat-list-item *ngFor="let buy of item.buys" role="listitem" style="height: 60px">
+          <span matLine>
+            {{buy.date | date: 'dd-M-y H:m:s'}}
+            <b style="float: right">x{{buy.quantity}} * ${{buy.price}}</b>
+          </span>
+         </mat-list-item>
+       </mat-list>
+       <p>Total: ${{item.totalBuysMoney}}</p>
+     </div>
+     <div style="flex: 1">
+       <p>Sells</p>
+       <mat-list role="list" class="items-holder" >
+         <mat-list-item *ngFor="let sell of item.sells" role="listitem" style="height: 60px">
+        <span matLine>
+          {{sell.date | date: 'dd-M-y H:m:s'}}
+          <b style="float: right">x{{sell.quantity}} * ${{sell.price}}</b>
+        </span>
+         </mat-list-item>
+       </mat-list>
+       <p>Total: ${{item.totalSellsMoney}}</p>
+     </div>
+   </div>
+  </mat-expansion-panel>
+</mat-accordion>

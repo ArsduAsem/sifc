@@ -1,0 +1,20 @@
+<mat-accordion>
+  <mat-expansion-panel *ngFor="let item of items$ | async">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{item.name}}
+      </mat-panel-title>
+      <mat-panel-description style="text-align: right">
+        {{item.totalSells}} Sells
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <mat-list role="list" class="items-holder" >
+      <mat-list-item *ngFor="let sell of item.sells" role="listitem" style="height: 60px">
+        <span matLine>
+          {{sell.date | date: 'dd-M-y H:m:s'}}
+          <b style="float: right">x{{sell.quantity}}</b>
+        </span>
+      </mat-list-item>
+    </mat-list>
+  </mat-expansion-panel>
+</mat-accordion>

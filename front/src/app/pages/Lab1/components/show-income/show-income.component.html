@@ -1,0 +1,35 @@
+<h1 mat-dialog-title>Detaliile Intrarii</h1>
+<mat-list-item mat-dialog-content>
+  <div class="row">
+    <span>Ordin de intrare:</span> <b>{{incoming.number}}</b>
+  </div>
+  <div class="row">
+    <span>Provider:</span> <b>{{incoming.provider}}</b>
+  </div>
+  <div class="row">
+    <span>Data si ora:</span> <b>{{incoming.date | date}}</b>
+  </div>
+  <div class="row">
+    <span>Inregistrari:</span> <b>{{incoming.count}}</b>
+  </div>
+  <mat-divider></mat-divider>
+  <mat-list>
+    <mat-list-item role="listitem" style="height: 60px">
+      <div  class="item-details">
+        <span>Nume Produs</span>
+        <span>Pret Intrare</span>
+        <span>Cantitate</span>
+      </div>
+    </mat-list-item>
+    <mat-list-item role="listitem" *ngFor="let item of incoming.items" style="height: 60px">
+      <div  class="item-details">
+        <span>{{item.name}}</span>
+        <span>${{item.price}}</span>
+        <span>x{{item.quantity}}</span>
+      </div>
+    </mat-list-item>
+  </mat-list>
+</mat-list-item>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]>Inchide</button>
+</div>

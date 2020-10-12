@@ -1,0 +1,23 @@
+.row {
+  display: flex;
+  padding: 5px 7px;
+  justify-content: flex-start;
+
+  & span {
+    width: 200px;
+  }
+
+  & b {
+    margin-left: 30px;
+  }
+}
+
+.item-details {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  & span {
+    width: 30%;
+  }
+}

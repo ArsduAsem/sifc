@@ -1,0 +1,19 @@
+.app-container {
+  height: 100%;
+}
+
+.page-wrapper {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.nav-list {
+  list-style: none;
+  & li {
+    min-width: 100px;
+  }
+}
+
+.route-view { flex-grow: 3 }

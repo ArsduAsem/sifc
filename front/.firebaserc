@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "sifc-a6441": {
+      "hosting": {
+        "front": [
+          "arsenii-asem-sifc"
+        ]
+      }
+    }
+  }
+}
