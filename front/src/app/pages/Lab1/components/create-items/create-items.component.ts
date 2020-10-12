@@ -14,7 +14,7 @@ export class CreateItemsComponent {
 
   itemName: string;
   itemProducer: string;
-  itemExpirationDate: string;
+  itemOs: string;
 
   constructor(
     private firestore: AngularFirestore
@@ -26,11 +26,11 @@ export class CreateItemsComponent {
     this.collection.add({
       name: this.itemName,
       producer: this.itemProducer,
-      date: firestore.Timestamp.fromDate(new Date(this.itemExpirationDate))
+      os: this.itemOs
     })
 
     this.itemName = undefined;
     this.itemProducer = undefined;
-    this.itemExpirationDate = undefined;
+    this.itemOs = undefined;
   }
 }

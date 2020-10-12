@@ -1,10 +1,9 @@
 import {Component, OnInit} from '@angular/core';
 import {AngularFirestore, AngularFirestoreCollection} from "@angular/fire/firestore";
-import {Item, PopulatedItem, WithId} from "../../../../types";
+import {Item, WithId} from "../../../../types";
 import {concat, Observable} from "rxjs";
 import {MatDialog} from "@angular/material/dialog";
 import {mapFireSnapItems} from "../../../../operators";
-import {map} from "rxjs/operators";
 import {CreateItemsComponent} from "../create-items/create-items.component";
 
 @Component({
@@ -14,11 +13,11 @@ import {CreateItemsComponent} from "../create-items/create-items.component";
 })
 export class ItemsComponent implements OnInit {
 
-  displayedColumns = ['id', 'name', 'producer', 'date']
+  displayedColumns = ['id', 'name', 'producer', 'os']
 
   collection: AngularFirestoreCollection<Item>;
   changes$: Observable<WithId<Item>[]>;
-  items$: Observable<WithId<PopulatedItem>[]>;
+  items$: Observable<WithId<Item>[]>;
 
   constructor(
     private firestore: AngularFirestore,
@@ -36,8 +35,6 @@ export class ItemsComponent implements OnInit {
         mapFireSnapItems<Item>()
       ),
       this.changes$
-    ).pipe(
-      map((items) => items.map(item => ({ ...item, date: item.date.toDate() })))
     );
   }
 

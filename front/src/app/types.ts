@@ -19,7 +19,7 @@ export interface Client {
 export interface Item {
   name: string;
   producer: string;
-  date: firestore.Timestamp
+  os: string;
 }
 
 export interface ItemMoveStats {
@@ -43,12 +43,6 @@ export interface ItemStats {
   totalProfit: number;
   sells: ItemMoveStats[];
   buys: ItemMoveStats[];
-}
-
-export interface PopulatedItem {
-  name: string;
-  producer: string;
-  date: Date;
 }
 
 export interface ItemRow {

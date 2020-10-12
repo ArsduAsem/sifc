@@ -2,121 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7239d5a-f2b7-42af-81f1-2a8532a9feda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/lint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/serve_web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.firebaserc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/firebase.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/app.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/material/material.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/operators.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/clients/clients.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/clients/clients.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/clients/clients.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/clients/clients.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-client/create-client.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-client/create-client.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-client/create-client.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-client/create-client.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-income/create-income.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-income/create-income.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-income/create-income.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-income/create-income.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-items/create-items.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-items/create-items.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-items/create-items.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-items/create-items.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-outgoing/create-outgoing.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-outgoing/create-outgoing.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-outgoing/create-outgoing.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-outgoing/create-outgoing.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-providers/create-providers.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-providers/create-providers.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-providers/create-providers.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-providers/create-providers.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/incomes/incomes.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/incomes/incomes.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/incomes/incomes.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/incomes/incomes.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/items/items.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/items/items.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/items/items.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/items/items.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/outgoings/outgoings.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/outgoings/outgoings.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/outgoings/outgoings.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/outgoings/outgoings.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/providers/providers.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/providers/providers.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/providers/providers.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/providers/providers.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/rapports/components/ten-best-profit/ten-best-profit.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/rapports/components/ten-best-profit/ten-best-profit.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/rapports/components/ten-best-profit/ten-best-profit.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/rapports/components/ten-best-profit/ten-best-profit.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/rapports/components/ten-best-sellers/ten-best-sellers.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/rapports/components/ten-best-sellers/ten-best-sellers.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/rapports/components/ten-best-sellers/ten-best-sellers.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/rapports/components/ten-best-sellers/ten-best-sellers.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/rapports/rapports.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/rapports/rapports.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/rapports/rapports.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/rapports/rapports.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/rapports/services/items-stats.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/show-income/show-income.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/show-income/show-income.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/show-income/show-income.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/show-income/show-income.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/lab1.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/lab1.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/lab1.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/lab1.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/lab1.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab2/lab2.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab2/lab2.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab2/lab2.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab2/lab2.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab2/lab2.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab3/lab3.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab3/lab3.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab3/lab3.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab3/lab3.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/pages/Lab3/lab3.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/app/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/tslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-items/create-items.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-items/create-items.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-items/create-items.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/create-items/create-items.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/items/items.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/items/items.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/items/items.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/pages/Lab1/components/items/items.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +43,7 @@
       <recent name="$PROJECT_DIR$/front/src/app/pages/Lab1" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.deploy:web">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/front/package.json" />
       <command value="run" />
@@ -185,8 +76,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy:web" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -200,14 +91,30 @@
       <option name="presentableId" value="Default" />
       <updated>1602428075314</updated>
       <workItem from="1602428076338" duration="33966000" />
-      <workItem from="1602492745532" duration="9231000" />
+      <workItem from="1602492745532" duration="10145000" />
     </task>
+    <task id="LOCAL-00001" summary="push first lab">
+      <created>1602502947276</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602502947276</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="push first lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="push first lab" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="510" y="59" width="889" height="995" key="CommitChangelistDialog2" timestamp="1602502947188">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="510" y="59" width="889" height="995" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1602502947188" />
     <state x="594" y="337" width="722" height="440" key="EditFileWatcherDialog" timestamp="1602429960795">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -216,26 +123,30 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1602487795607" />
-    <state width="1897" height="272" key="GridCell.Tab.0.bottom" timestamp="1602494907779">
+    <state width="1897" height="272" key="GridCell.Tab.0.bottom" timestamp="1602503674244">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="272" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1602494907779" />
-    <state width="1897" height="272" key="GridCell.Tab.0.center" timestamp="1602494907777">
+    <state width="1897" height="272" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1602503674244" />
+    <state width="1897" height="272" key="GridCell.Tab.0.center" timestamp="1602503674244">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="272" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1602494907777" />
-    <state width="1897" height="272" key="GridCell.Tab.0.left" timestamp="1602494907776">
+    <state width="1897" height="272" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1602503674244" />
+    <state width="1897" height="272" key="GridCell.Tab.0.left" timestamp="1602503674244">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="272" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1602494907776" />
-    <state width="1897" height="272" key="GridCell.Tab.0.right" timestamp="1602494907778">
+    <state width="1897" height="272" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1602503674244" />
+    <state width="1897" height="272" key="GridCell.Tab.0.right" timestamp="1602503674244">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="272" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1602494907778" />
+    <state width="1897" height="272" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1602503674244" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1602499978187">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1602499978187" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602502949019">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1602502949019" />
     <state x="613" y="171" width="683" height="772" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602460157573">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
